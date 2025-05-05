@@ -52,7 +52,7 @@ Start by outlining the project structure and the main components needed for this
   1. Repeat (a)-(c) outputting to a different project.
   1. Inspect both project code. Notice the differences.
 
-1. Check an app against a non-functional requirement.
+# Check an app against a non-functional requirement.
 - Learning Goals: Demonstrate trade-offs.
 - Instructions:
   1. Setup and run SonarQube against both projects from (1).
@@ -61,7 +61,7 @@ Setup and run SonarQube to be used to analyze the security of the code of the to
 ```
   1. Notice the differences in the findings.
 
-1. Modify an app to improve a non-functional requirement.
+# Modify an app to improve a non-functional requirement.
 - Learning Goals: Demonstrate offloading decision-making.
 - Instructions:
   1. Use the following prompt to modify both to-do list app.
@@ -105,7 +105,7 @@ Setup and run SonarQube to be used to analyze the security of the code of the to
 ```
   1. Notice the differences in the findings between this and (2).
 
-1. Vibe code a to-do list app using a detailed prompt.
+# Vibe code a to-do list app using a detailed prompt.
 - Learning Goals: Demonstrate the value of prompt engineering.
 - Instructions:
   1. Use the following prompt to build a to-do list app.
@@ -162,16 +162,16 @@ The application should include the following typical to-do list features:
 * Suggest how the user can further enhance the security of the application (e.g., authentication, more granular access control) as potential future steps.
 
 Begin by outlining the project structure, defining the API endpoints with their expected inputs and outputs, and specifying how CORS and input sanitization will be integrated into these endpoints. Then, proceed with code generation and implementation, focusing on building a secure foundation for the to-do list functionality.
-Notice the difference between this prompt and the one from (1).
-Run SonarQube against the updated code base.
-Notice the differences in the findings between this and (2).
-Add a feature to an existing app.
-Time Allocation: 10 mins
-Learning Goals:
-Demonstrate how to make vibe coding part of a bigger SW engineering process.
-Instructions:
-Use the following prompt to add a new feature to the to-do list app from (4).
+```
+  1. Notice the difference between this prompt and the one from (1).
+  1. Run SonarQube against the updated code base.
+  1. Notice the differences in the findings between this and (2).
 
+# Add a feature to an existing app.
+- Learning Goals: Demonstrate how to make vibe coding part of a bigger SW engineering process.
+- Instructions:
+  1. Use the following prompt to add a new feature to the to-do list app from (4).
+```
 The goal is to introduce a separate area or flow within the application where users can quickly record transient thoughts without the immediate need to structure them as full tasks with due dates, priorities, etc. Later, they should be able to review these thoughts and promote them to become tasks in their main to-do list.
 
 **Requirements:**
