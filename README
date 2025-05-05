@@ -1,7 +1,8 @@
 1. Vibe code a to-do list app using a minimal prompt. (2 iterations)
-- Learning Goals: Demonstrate how there’s a myriad of possibilities.
-- Instructions:
-  1. Use the following prompt to build a to-do list app.
+  - Learning Goals: Demonstrate how there’s a myriad of possibilities.
+  - Instructions:
+    1. Use the following prompt to build a to-do list app.
+
 ```
 Your goal is to develop a functional to-do list application. This application should be built with a modern web technology stack (you can suggest a suitable one, e.g., React/Next.js for the frontend and Node.js/Express for the backend with a simple database).
 
